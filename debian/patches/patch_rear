@@ -1,0 +1,15 @@
+--- a/usr/sbin/rear
++++ b/usr/sbin/rear
+@@ -41,9 +41,9 @@
+ fi
+ 
+ # Program directories - they must be set here. Everything else is then dynamic
+-SHARE_DIR="$REAR_DIR_PREFIX/usr/share/rear"
+-CONFIG_DIR="$REAR_DIR_PREFIX/etc/rear"
+-VAR_DIR="$REAR_DIR_PREFIX/var/lib/rear"
++SHARE_DIR="/usr/share/rear"
++CONFIG_DIR="/etc/rear"
++VAR_DIR="/var/lib/rear"
+ LOG_DIR="$REAR_DIR_PREFIX/var/log/rear"
+ CMD_OPTS=( "$@" )
+ 

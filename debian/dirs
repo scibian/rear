@@ -1,0 +1,5 @@
+etc/
+usr/sbin/
+usr/share/
+var/lib/rear/
+var/log/rear/

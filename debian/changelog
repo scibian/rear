@@ -1,0 +1,84 @@
+rear (1.14-1+c9+1) calibre9; urgency=medium
+
+  * Import into Calibre9.
+
+ -- Yann Soubeyrand <yann-externe.soubeyrand@edf.fr>  Thu, 02 Jun 2016 10:02:11 +0200
+
+rear (1.14-1+c8+1) calibre8; urgency=low
+
+  * Import into Calibre8.
+
+ -- Ana Guerrero <ana-externe.guerrero@edf.fr>  Fri, 08 Nov 2013 11:08:39 +0100
+
+rear (1.14-1+c7+2) calibre7; urgency=low
+
+  * Update the packaging to something better thatn the packaging provided
+    by upstream:
+    - Update to dh and avoid all the previous hackish debian/rules.
+    - Bump to compat 7 and add a compat file.
+    - Add a real debian/copyright file.
+    - Improve short and long description in debian/control.
+    - Remove useless conffiles file.
+
+ -- Ana Guerrero <ana-externe.guerrero@edf.fr>  Thu, 07 Nov 2013 16:22:53 +0100
+
+rear (1.14-1+c7+1) calibre7; urgency=low
+
+  * Port to Calibre 7
+
+ -- Gregoire Menuel <gregoire-externe.menuel@edf.fr>  Tue, 07 May 2013 14:26:20 +0200
+
+rear (1.14-1) stable; urgency=high
+
+  * majpr bugfixes
+
+ -- Dag Wieers <dag@wieers.com>  Mon, 19 Sep 2012 13:42:00 +0100
+rear (1.13.0-1) stable; urgency=low
+
+  * new features
+  * bugfixes
+
+ -- Dag Wieers <dag@wieers.com> Mon, 25 Jun 2012 12:46:21 +0100
+rear (1.12.0-1) stable; urgency=low
+
+  * new features
+  * bugfixes
+  * see http://sourceforge.net/projects/rear/files/rear/1.12/1.12.0/rear-release-notes.txt/download for details
+
+ -- Schlomo Schapiro <rear-buildservice@schlomo.schapiro.org> Wed, 15 Feb 2012 11:02:03 +0100
+rear (1.11.0-11) stable; urgency=low
+
+  * new features
+  * bugfixes
+
+ -- Schlomo Schapiro <rear-buildservice@schlomo.schapiro.org> Sun, 23 May 2011 17:47:47 +0100
+rear (1.10.0-1) stable; urgency=low
+
+  * new features
+  * bugfixes
+
+ -- Schlomo Schapiro <rear-buildservice@schlomo.schapiro.org> Sun, 20 Mar 2011 11:55:54 +0100
+rear (1.7.23-1) stable; urgency=low
+
+  * bugfixes, mostly for x86_64
+  * openSUSE 11.2 validation
+  * no tests on Debian done :-(
+
+ -- Schlomo Schapiro <rear-buildservice@schlomo.schapiro.org>  Fri, 09 Dec 2009 09:25:04 +0100
+rear (1.7.22-5) stable; urgency=low
+
+  * many bugfixes
+  * SLES11 validation
+  * no tests on Debian done :-(
+
+ -- Schlomo Schapiro <rear-buildservice@schlomo.schapiro.org>  Wed, 02 Dec 2009 15:23:04 +0100
+rear (1.7.21-5) stable; urgency=low
+
+  * Update for openSUSE 11.2
+
+ -- Schlomo Schapiro <rear-buildservice@schlomo.schapiro.org>  Sun, 28 Jun 2009 20:05:04 +0100
+rear (1.7.20-5) stable; urgency=low
+
+  * Initial Release
+
+ -- Schlomo Schapiro <rear-buildservice@schlomo.schapiro.org>  Sun, 28 Jun 2009 20:05:04 +0100

@@ -1,0 +1,17 @@
+Source: rear
+Section: admin
+Priority: optional
+Maintainer: Dag Wieers <dag@wieers.com>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 7)
+Homepage: http://relax-and-recover.org/
+
+Package: rear
+Architecture: all
+Provides: rear
+Depends: mingetty, syslinux, ethtool, libc6, lsb-release, portmap, 
+ genisoimage, iproute, iputils-ping, nfs-client, binutils, parted
+Description: linux bare metal disaster recovery solution
+ Relax-and-Recover is a setup-and-forget Linux bare metal disaster 
+ recovery solution. It is easy to set up and requires no maintenance 
+ so there is no excuse for not using it. 
