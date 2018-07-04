@@ -1,10 +1,12 @@
 Source: rear
 Section: admin
 Priority: optional
-Maintainer: Dag Wieers <dag@wieers.com>
+Maintainer: Scibian Project <packaging@scibian.org>
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 7)
 Homepage: http://relax-and-recover.org/
+Vcs-Git: https://github.com/scibian/rear.git
+Vcs-Browser: https://github.com/scibian/rear
 
 Package: rear
 Architecture: all
